@@ -5,28 +5,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/darkb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="D"/>
+        android:text="Light Mode"/>
     <Button
         android:id="@+id/lightb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="L"/>
+        android:text="Dark Mode"/>
 
     <Button
         android:id="@+id/toga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A"/>
+        android:text="Icons Dark"/>
     <Button
         android:id="@+id/togb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B"/>
+        android:text="Icons Light"/>
 
   </LinearLayout>
