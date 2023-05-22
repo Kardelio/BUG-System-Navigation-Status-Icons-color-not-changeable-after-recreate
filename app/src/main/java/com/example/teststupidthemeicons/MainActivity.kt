@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
 
     fun bu(d: Boolean) {
         //NOTE: the below commented out code also doesnt work
-        window.decorView.systemUiVisibility = if (d) {
-            window.decorView.systemUiVisibility or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-        } else {
-            window.decorView.systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
-        }
+//        window.decorView.systemUiVisibility = if (d) {
+//            window.decorView.systemUiVisibility or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+//        } else {
+//            window.decorView.systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
+//        }
         WindowCompat.getInsetsController(window, window.decorView).isAppearanceLightStatusBars = d
         WindowCompat.getInsetsController(window, window.decorView).isAppearanceLightNavigationBars =
             d
